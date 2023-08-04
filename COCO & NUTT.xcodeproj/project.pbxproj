@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		526025C32A7DA35C0006DAAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526025C22A7DA35C0006DAAA /* AppDelegate.swift */; };
+		526025C52A7DA35C0006DAAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526025C42A7DA35C0006DAAA /* SceneDelegate.swift */; };
+		526025C72A7DA35C0006DAAA /* onBoardingVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526025C62A7DA35C0006DAAA /* onBoardingVc.swift */; };
+		526025CC2A7DA35E0006DAAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 526025CB2A7DA35E0006DAAA /* Assets.xcassets */; };
+		526025CF2A7DA35E0006DAAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526025CD2A7DA35E0006DAAA /* LaunchScreen.storyboard */; };
+		526025DE2A7DA43B0006DAAA /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 526025DA2A7DA43B0006DAAA /* Poppins-Regular.ttf */; };
+		526025DF2A7DA43B0006DAAA /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 526025DB2A7DA43B0006DAAA /* Poppins-SemiBold.ttf */; };
+		526025E02A7DA43B0006DAAA /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 526025DC2A7DA43B0006DAAA /* Poppins-Light.ttf */; };
+		526025E12A7DA43B0006DAAA /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 526025DD2A7DA43B0006DAAA /* Poppins-Medium.ttf */; };
+		526025E32A7DA4940006DAAA /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526025E22A7DA4940006DAAA /* UIFont+.swift */; };
+		526025E52A7DA4A10006DAAA /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526025E42A7DA4A10006DAAA /* UIColor+.swift */; };
+		526025E82A7DA5C00006DAAA /* Stevia in Frameworks */ = {isa = PBXBuildFile; productRef = 526025E72A7DA5C00006DAAA /* Stevia */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		526025BF2A7DA35C0006DAAA /* COCO & NUTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "COCO & NUTT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		526025C22A7DA35C0006DAAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		526025C42A7DA35C0006DAAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		526025C62A7DA35C0006DAAA /* onBoardingVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoardingVc.swift; sourceTree = "<group>"; };
+		526025CB2A7DA35E0006DAAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		526025CE2A7DA35E0006DAAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		526025D02A7DA35E0006DAAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		526025DA2A7DA43B0006DAAA /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		526025DB2A7DA43B0006DAAA /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		526025DC2A7DA43B0006DAAA /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		526025DD2A7DA43B0006DAAA /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		526025E22A7DA4940006DAAA /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
+		526025E42A7DA4A10006DAAA /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		526025BC2A7DA35C0006DAAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526025E82A7DA5C00006DAAA /* Stevia in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		526025B62A7DA35C0006DAAA = {
+			isa = PBXGroup;
+			children = (
+				526025C12A7DA35C0006DAAA /* COCO & NUTT */,
+				526025C02A7DA35C0006DAAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		526025C02A7DA35C0006DAAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				526025BF2A7DA35C0006DAAA /* COCO & NUTT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		526025C12A7DA35C0006DAAA /* COCO & NUTT */ = {
+			isa = PBXGroup;
+			children = (
+				526025C22A7DA35C0006DAAA /* AppDelegate.swift */,
+				526025C42A7DA35C0006DAAA /* SceneDelegate.swift */,
+				526025D62A7DA3D40006DAAA /* OnBoarding */,
+				526025D72A7DA3EC0006DAAA /* Extention */,
+				526025D82A7DA3F70006DAAA /* Resources */,
+				526025CB2A7DA35E0006DAAA /* Assets.xcassets */,
+				526025CD2A7DA35E0006DAAA /* LaunchScreen.storyboard */,
+				526025D02A7DA35E0006DAAA /* Info.plist */,
+			);
+			path = "COCO & NUTT";
+			sourceTree = "<group>";
+		};
+		526025D62A7DA3D40006DAAA /* OnBoarding */ = {
+			isa = PBXGroup;
+			children = (
+				526025C62A7DA35C0006DAAA /* onBoardingVc.swift */,
+			);
+			path = OnBoarding;
+			sourceTree = "<group>";
+		};
+		526025D72A7DA3EC0006DAAA /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				526025E22A7DA4940006DAAA /* UIFont+.swift */,
+				526025E42A7DA4A10006DAAA /* UIColor+.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		526025D82A7DA3F70006DAAA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				526025D92A7DA4140006DAAA /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		526025D92A7DA4140006DAAA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				526025DC2A7DA43B0006DAAA /* Poppins-Light.ttf */,
+				526025DD2A7DA43B0006DAAA /* Poppins-Medium.ttf */,
+				526025DA2A7DA43B0006DAAA /* Poppins-Regular.ttf */,
+				526025DB2A7DA43B0006DAAA /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		526025BE2A7DA35C0006DAAA /* COCO & NUTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 526025D32A7DA35E0006DAAA /* Build configuration list for PBXNativeTarget "COCO & NUTT" */;
+			buildPhases = (
+				526025BB2A7DA35C0006DAAA /* Sources */,
+				526025BC2A7DA35C0006DAAA /* Frameworks */,
+				526025BD2A7DA35C0006DAAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "COCO & NUTT";
+			packageProductDependencies = (
+				526025E72A7DA5C00006DAAA /* Stevia */,
+			);
+			productName = "COCO & NUTT";
+			productReference = 526025BF2A7DA35C0006DAAA /* COCO & NUTT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		526025B72A7DA35C0006DAAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					526025BE2A7DA35C0006DAAA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 526025BA2A7DA35C0006DAAA /* Build configuration list for PBXProject "COCO & NUTT" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 526025B62A7DA35C0006DAAA;
+			packageReferences = (
+				526025E62A7DA5C00006DAAA /* XCRemoteSwiftPackageReference "Stevia" */,
+			);
+			productRefGroup = 526025C02A7DA35C0006DAAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				526025BE2A7DA35C0006DAAA /* COCO & NUTT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		526025BD2A7DA35C0006DAAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526025DE2A7DA43B0006DAAA /* Poppins-Regular.ttf in Resources */,
+				526025E02A7DA43B0006DAAA /* Poppins-Light.ttf in Resources */,
+				526025DF2A7DA43B0006DAAA /* Poppins-SemiBold.ttf in Resources */,
+				526025E12A7DA43B0006DAAA /* Poppins-Medium.ttf in Resources */,
+				526025CF2A7DA35E0006DAAA /* LaunchScreen.storyboard in Resources */,
+				526025CC2A7DA35E0006DAAA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		526025BB2A7DA35C0006DAAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526025E32A7DA4940006DAAA /* UIFont+.swift in Sources */,
+				526025C72A7DA35C0006DAAA /* onBoardingVc.swift in Sources */,
+				526025C32A7DA35C0006DAAA /* AppDelegate.swift in Sources */,
+				526025C52A7DA35C0006DAAA /* SceneDelegate.swift in Sources */,
+				526025E52A7DA4A10006DAAA /* UIColor+.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		526025CD2A7DA35E0006DAAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				526025CE2A7DA35E0006DAAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		526025D12A7DA35E0006DAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		526025D22A7DA35E0006DAAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		526025D42A7DA35E0006DAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KXKK5K23DG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "COCO & NUTT/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appskottage.KidsBookStore.COCO---NUTT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		526025D52A7DA35E0006DAAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KXKK5K23DG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "COCO & NUTT/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.appskottage.KidsBookStore.COCO---NUTT";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		526025BA2A7DA35C0006DAAA /* Build configuration list for PBXProject "COCO & NUTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526025D12A7DA35E0006DAAA /* Debug */,
+				526025D22A7DA35E0006DAAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		526025D32A7DA35E0006DAAA /* Build configuration list for PBXNativeTarget "COCO & NUTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526025D42A7DA35E0006DAAA /* Debug */,
+				526025D52A7DA35E0006DAAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		526025E62A7DA5C00006DAAA /* XCRemoteSwiftPackageReference "Stevia" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/freshOS/Stevia";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		526025E72A7DA5C00006DAAA /* Stevia */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 526025E62A7DA5C00006DAAA /* XCRemoteSwiftPackageReference "Stevia" */;
+			productName = Stevia;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 526025B72A7DA35C0006DAAA /* Project object */;
+}
