@@ -49,7 +49,7 @@ class onBoardingVc: UIViewController {
         button.setTitle("Skip Now", for: .normal)
         button.titleLabel?.font = .poppinsMedium(ofSize: 14)
         button.setTitleColor(.colorA9A9A9, for: .normal)
-//        button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
+        //        button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
         return button
     }()
     lazy var logInBtn: UIButton = {
@@ -59,10 +59,10 @@ class onBoardingVc: UIViewController {
         button.setTitleColor(.colorFFFFFF, for: .normal)
         button.backgroundColor = .colorC67C4E
         button.layer.cornerRadius = 10
-//        button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
+        button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
         return button
     }()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .color0F0F0F
@@ -72,7 +72,7 @@ class onBoardingVc: UIViewController {
     
     func setUpView(){
         view.subviews(cocoNut,coffeImg,tasteLabel,grainLabel,skipButton,logInBtn)
-        cocoNut.width(240).height(62).top(50).centerHorizontally()
+        cocoNut.width(240).height(62).top(11.8%).centerHorizontally()
         coffeImg.width(100%).height(55%).Top == cocoNut.Bottom
         tasteLabel.width(100%).Top == coffeImg.Bottom
         grainLabel.width(100%).height(44).Top == tasteLabel.Bottom
@@ -80,7 +80,8 @@ class onBoardingVc: UIViewController {
         logInBtn.width(135).height(52).right(20).bottom(20)
         
     }
-
-
+    @objc func buttonTapped(){
+        let vc = SignInVC()
+        navigationController?.pushViewController(vc, animated: true)        
+    }
 }
-

@@ -19,6 +19,13 @@
 		526025E32A7DA4940006DAAA /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526025E22A7DA4940006DAAA /* UIFont+.swift */; };
 		526025E52A7DA4A10006DAAA /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526025E42A7DA4A10006DAAA /* UIColor+.swift */; };
 		526025E82A7DA5C00006DAAA /* Stevia in Frameworks */ = {isa = PBXBuildFile; productRef = 526025E72A7DA5C00006DAAA /* Stevia */; };
+		5294E5842A7EBD1E00B368DA /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294E5832A7EBD1E00B368DA /* SignInVC.swift */; };
+		5294E5892A7EC01F00B368DA /* SigninTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294E5882A7EC01F00B368DA /* SigninTableCell.swift */; };
+		5294E58C2A7EC7D400B368DA /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294E58B2A7EC7D400B368DA /* BaseNavigationController.swift */; };
+		5294E58E2A7ECAE300B368DA /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294E58D2A7ECAE300B368DA /* UIView.swift */; };
+		5294E5902A7ED9FE00B368DA /* BaseTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294E58F2A7ED9FE00B368DA /* BaseTextFieldView.swift */; };
+		5294E5962A7EECB300B368DA /* SignUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294E5952A7EECB300B368DA /* SignUpTableViewCell.swift */; };
+		5294E5982A7EECC700B368DA /* SignUpVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294E5972A7EECC700B368DA /* SignUpVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +42,13 @@
 		526025DD2A7DA43B0006DAAA /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		526025E22A7DA4940006DAAA /* UIFont+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
 		526025E42A7DA4A10006DAAA /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		5294E5832A7EBD1E00B368DA /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		5294E5882A7EC01F00B368DA /* SigninTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninTableCell.swift; sourceTree = "<group>"; };
+		5294E58B2A7EC7D400B368DA /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		5294E58D2A7ECAE300B368DA /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		5294E58F2A7ED9FE00B368DA /* BaseTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTextFieldView.swift; sourceTree = "<group>"; };
+		5294E5952A7EECB300B368DA /* SignUpTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpTableViewCell.swift; sourceTree = "<group>"; };
+		5294E5972A7EECC700B368DA /* SignUpVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +85,8 @@
 				526025C22A7DA35C0006DAAA /* AppDelegate.swift */,
 				526025C42A7DA35C0006DAAA /* SceneDelegate.swift */,
 				526025D62A7DA3D40006DAAA /* OnBoarding */,
+				5294E5822A7EBCEA00B368DA /* SignIn */,
+				5294E5912A7EEC7200B368DA /* SignUp */,
 				526025D72A7DA3EC0006DAAA /* Extention */,
 				526025D82A7DA3F70006DAAA /* Resources */,
 				526025CB2A7DA35E0006DAAA /* Assets.xcassets */,
@@ -91,6 +107,7 @@
 		526025D72A7DA3EC0006DAAA /* Extention */ = {
 			isa = PBXGroup;
 			children = (
+				5294E58A2A7EC7BC00B368DA /* Base */,
 				526025E22A7DA4940006DAAA /* UIFont+.swift */,
 				526025E42A7DA4A10006DAAA /* UIColor+.swift */,
 			);
@@ -114,6 +131,82 @@
 				526025DB2A7DA43B0006DAAA /* Poppins-SemiBold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		5294E5822A7EBCEA00B368DA /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				5294E5852A7EBD4600B368DA /* Model */,
+				5294E5862A7EBD5400B368DA /* Views */,
+				5294E5872A7EBD6100B368DA /* Controller */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		5294E5852A7EBD4600B368DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5294E5862A7EBD5400B368DA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5294E5882A7EC01F00B368DA /* SigninTableCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5294E5872A7EBD6100B368DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5294E5832A7EBD1E00B368DA /* SignInVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5294E58A2A7EC7BC00B368DA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5294E58B2A7EC7D400B368DA /* BaseNavigationController.swift */,
+				5294E58D2A7ECAE300B368DA /* UIView.swift */,
+				5294E58F2A7ED9FE00B368DA /* BaseTextFieldView.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5294E5912A7EEC7200B368DA /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				5294E5942A7EEC9700B368DA /* Model */,
+				5294E5932A7EEC9000B368DA /* View */,
+				5294E5922A7EEC8200B368DA /* Controller */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		5294E5922A7EEC8200B368DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5294E5972A7EECC700B368DA /* SignUpVc.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5294E5932A7EEC9000B368DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5294E5952A7EECB300B368DA /* SignUpTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5294E5942A7EEC9700B368DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,10 +289,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5294E58C2A7EC7D400B368DA /* BaseNavigationController.swift in Sources */,
 				526025E32A7DA4940006DAAA /* UIFont+.swift in Sources */,
+				5294E5902A7ED9FE00B368DA /* BaseTextFieldView.swift in Sources */,
 				526025C72A7DA35C0006DAAA /* onBoardingVc.swift in Sources */,
+				5294E5982A7EECC700B368DA /* SignUpVc.swift in Sources */,
+				5294E5842A7EBD1E00B368DA /* SignInVC.swift in Sources */,
 				526025C32A7DA35C0006DAAA /* AppDelegate.swift in Sources */,
+				5294E5962A7EECB300B368DA /* SignUpTableViewCell.swift in Sources */,
 				526025C52A7DA35C0006DAAA /* SceneDelegate.swift in Sources */,
+				5294E5892A7EC01F00B368DA /* SigninTableCell.swift in Sources */,
+				5294E58E2A7ECAE300B368DA /* UIView.swift in Sources */,
 				526025E52A7DA4A10006DAAA /* UIColor+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
