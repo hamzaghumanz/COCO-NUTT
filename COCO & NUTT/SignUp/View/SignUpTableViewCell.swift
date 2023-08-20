@@ -52,9 +52,9 @@ class SignUpTableViewCell:UITableViewCell {
         return view
     }()
     
-    lazy var logInButton:UIButton = {
+    lazy var signUpButton:UIButton = {
         let button = UIButton()
-        button.setTitle("LOGIN", for: .normal)
+        button.setTitle("Sign Up", for: .normal)
         button.setTitleColor(UIColor.colorFFFFFF, for: .normal)
         button.titleLabel?.font = .poppinsSemiBold(ofSize: 16)
         button.layer.cornerRadius = 10
@@ -76,14 +76,14 @@ class SignUpTableViewCell:UITableViewCell {
         self.selectedBackgroundView = UIView()
         backgroundColor = .color0F0F0F
 //        termsCond.gradientEffect(colors: [UIColor.colorB19595.cgColor, UIColor.colorC67C4E.cgColor])
-        subviews(titleLabel,subTitleLabel,userNameView,emailView,passwordView,logInButton,termsCond)
+        subviews(titleLabel,subTitleLabel,userNameView,emailView,passwordView,signUpButton,termsCond)
         titleLabel.width(249).height(36).left(0).top(0)
         subTitleLabel.width(318).height(46).left(0).Top == titleLabel.Bottom + 20
         userNameView.width(318).height(90).centerHorizontally().Top == subTitleLabel.Bottom + 40
         emailView.width(318).height(90).centerHorizontally().Top == userNameView.Bottom + 20
         passwordView.width(318).height(90).centerHorizontally().Top == emailView.Bottom + 20
-        logInButton.width(318).height(52).centerHorizontally().Top == passwordView.Bottom + 40
-        termsCond.width(308).height(44).left(10).Top == logInButton.Bottom + 20
+        signUpButton.width(318).height(52).centerHorizontally().Top == passwordView.Bottom + 40
+        termsCond.width(308).height(44).left(10).Top == signUpButton.Bottom + 20
         
 
     }

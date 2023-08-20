@@ -27,6 +27,7 @@ class SignUpVc: UIViewController {
         tv.separatorStyle = .none
         tv.backgroundColor = .color0F0F0F
         tv.scrollIndicatorInsets = .zero
+        tv.isUserInteractionEnabled = true
         return tv
     }()
     override func viewDidLoad() {
@@ -54,13 +55,18 @@ extension SignUpVc:UITableViewDataSource,UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier:SignUpTableViewCell.identifier, for: indexPath) as? SignUpTableViewCell {
-            
+            cell.signUpButton.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
             return cell
         }
         return UITableViewCell()
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 551
+    }
+    
+    @objc func buttonTapped(){
+        let vc = SelectBranches()
+        navigationController?.pushViewController(vc, animated: true)
     }
     
 }
