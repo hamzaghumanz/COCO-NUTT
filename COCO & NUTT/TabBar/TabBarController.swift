@@ -22,29 +22,25 @@ class TabBarController:UITabBarController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
-//        SwiftRater.check()
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
-//            self.showInspireAd()
-            
-        }
+
     }
     
     
     func setUpTabbarControllers()  {
         let homeController = HomeController()
-        homeController.tabBarItem = UITabBarItem(title: "", image: UIImage(named:  "tab-home"), tag: 0)
+        homeController.tabBarItem = UITabBarItem(title: "", image: UIImage(named:  "tab-0")?.withRenderingMode(.alwaysTemplate), tag: 0)
         let home = BaseNavigationController(rootViewController: homeController)
         
         let likedController = LikedController()
-        likedController.tabBarItem = UITabBarItem(title: "", image: UIImage(named:  "tab-project"), tag: 1)
+        likedController.tabBarItem = UITabBarItem(title: "", image: UIImage(named:  "tab-1")?.withRenderingMode(.alwaysTemplate), tag: 1)
         let liked = BaseNavigationController(rootViewController: likedController)
         
         let cartController = CartController()
-        cartController.tabBarItem = UITabBarItem(title: "", image: UIImage(named:  "tab-project"), tag: 2)
+        cartController.tabBarItem = UITabBarItem(title: "", image: UIImage(named:  "tab-2")?.withRenderingMode(.alwaysTemplate), tag: 2)
         let cart = BaseNavigationController(rootViewController: cartController)
         
         let settingController = SettingController()
-        settingController.tabBarItem = UITabBarItem(title: "", image: UIImage(named:  "tab-project"), tag: 3)
+        settingController.tabBarItem = UITabBarItem(title: "", image: UIImage(named:  "tab-3")?.withRenderingMode(.alwaysTemplate), tag: 3)
         let setting = BaseNavigationController(rootViewController: settingController)
         
         viewControllers = [home, liked,cart,setting]

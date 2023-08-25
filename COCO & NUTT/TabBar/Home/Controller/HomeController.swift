@@ -8,22 +8,17 @@
 import UIKit
 import Stevia
 
-class HomeController: UIViewController {
+class HomeController: BaseViewController {
     
-    
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .red
-        setUpView()
-    }
-    
-    
-    func setUpView(){
-    
-        
     }
     
 }
 
+
+extension HomeController {
+    
+}
